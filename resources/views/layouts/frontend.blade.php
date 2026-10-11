@@ -731,6 +731,7 @@
                     </div>
                 </div>
 
+                <!-- CTA button: icon + text centered, arrow removed -->
                 <div class="cp-cta">
                     <span class="cp-cta-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
@@ -742,11 +743,6 @@
                         <small>Call our parts team</small>
                         <strong>+1 (888) 855-2919</strong>
                     </span>
-                    <svg class="cp-arrow" width="19" height="19" viewBox="0 0 24 24" fill="none"
-                         stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
-                         stroke-linejoin="round" aria-hidden="true">
-                        <path d="M5 12h14m-7-7 7 7-7 7"/>
-                    </svg>
                 </div>
 
                 <p class="cp-note">Tap anywhere on this card to call our team</p>
@@ -1099,15 +1095,16 @@
     font-weight: 800;
 }
 
-/* CTA */
+/* CTA (centered, equal padding, no arrow) */
 .cp-cta {
     position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
     width: 100%;
-    padding: 11px 15px 11px 11px;
+    padding: 11px 15px;
     border-radius: 16px;
     background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
     color: #ffffff;
@@ -1166,14 +1163,6 @@
     line-height: 1.1;
     letter-spacing: -.2px;
     white-space: nowrap;
-}
-.cp-arrow {
-    flex-shrink: 0;
-    margin-left: auto;
-    transition: transform .2s ease;
-}
-.cp-link:hover .cp-arrow {
-    transform: translateX(3px);
 }
 
 .cp-note {
@@ -1268,7 +1257,7 @@
     .cp-unit strong { font-size: 20px; }
     .cp-sep { font-size: 19px; margin-top: -12px; }
 
-    .cp-cta { padding: 10px 13px 10px 10px; gap: 10px; border-radius: 14px; }
+    .cp-cta { padding: 10px 13px; gap: 10px; border-radius: 14px; }
     .cp-cta-icon { width: 38px; height: 38px; border-radius: 11px; }
     .cp-cta-text strong { font-size: 16px; }
     .cp-note { font-size: 10px; margin-top: -2px; }
@@ -1334,7 +1323,7 @@
     .cp-unit strong { font-size: 18px; }
     .cp-sep { font-size: 17px; margin-top: -11px; }
 
-    .cp-cta { padding: 8px 12px 8px 8px; gap: 9px; border-radius: 13px; }
+    .cp-cta { padding: 8px 12px; gap: 9px; border-radius: 13px; }
     .cp-cta-icon { width: 34px; height: 34px; border-radius: 10px; }
     .cp-cta-text strong { font-size: 15px; }
     .cp-cta-text small { font-size: 10px; }
@@ -1356,8 +1345,7 @@
         animation: none;
     }
     .cp-close,
-    .cp-cta,
-    .cp-arrow {
+    .cp-cta {
         transition: none;
     }
 }

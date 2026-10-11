@@ -1156,10 +1156,11 @@
                     <div class="customer-feedback-left">
                         <a href="tel:{{ $phone }}" class="trustpilot">
                             <h5>Excellent!</h5>
+                            
                             <img class="star" src="/frontend/assets/img/home1/icon/trustpilot-star3.svg" alt="">
                         </a>
                         <a href="tel:{{ $phone }}" class="google">
-                            <img class="logo" src="/frontend/assets/img/home1/icon/google3.svg" alt="">
+                            <img class="logo" src="/frontend/assets/logo.png" alt="">
                             <div class="star">
                                 <ul>
                                     <li class="active"><i class="bi bi-star-fill"></i></li>
@@ -1169,7 +1170,7 @@
                                     <li class=""><i class="bi bi-star-half"></i></li>
                                 </ul>
                             </div>
-                            <span>Based On <strong>1,448</strong> Reviews</span>
+                            <span>Call Now: +1 (888) 855-2919</span>
                         </a>
                     </div>
                 </div>
@@ -1192,9 +1193,9 @@
                                                 </div>
                                                 <span>Engine Runs Like New!</span>
                                             </div>
-                                            <div class="logo">
+                                            <!-- <div class="logo">
                                                 <img src="/frontend/assets/img/home1/icon/google3.svg" alt="">
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <p>"Ordered a replacement engine for my Silverado. Delivery was swift, compression tested high across all cylinders, and installation went smoothly. Saved over $2,000!"</p>
                                         <div class="author-name">
@@ -1217,9 +1218,9 @@
                                                 </div>
                                                 <span>Flawless Transmission</span>
                                             </div>
-                                             <div class="logo">
+                                             <!-- <div class="logo">
                                                 <img src="/frontend/assets/img/home1/icon/google3.svg" alt="">
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <p>"The transmission arrived right on schedule. Exact VIN match, clean fluid channels, and shifts like factory new. Their phone support was remarkably helpful."</p>
                                         <div class="author-name">
@@ -1242,9 +1243,9 @@
                                                 </div>
                                                 <span>Great Fit & Savings</span>
                                             </div>
-                                            <div class="logo">
+                                            <!-- <div class="logo">
                                                 <img src="/frontend/assets/img/home1/icon/google3.svg" alt="">
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <p>"Needed an OEM power steering pump and suspension control arms. The parts arrived clean, intact, and worked perfectly. Excellent value for money!"</p>
                                         <div class="author-name">
@@ -1256,12 +1257,12 @@
                                     <div class="feedback-card">
                                         <div class="feedback-top">
                                             <div class="stat-area">
-                                                <img src="/frontend/assets/img/home1/icon/trustpilot-star.svg" alt="">
+                                                <!-- <img src="/frontend/assets/img/home1/icon/trustpilot-star.svg" alt=""> -->
                                                 <span>Verified Fitment</span>
                                             </div>
-                                            <div class="logo">
+                                            <!-- <div class="logo">
                                                 <img src="/frontend/assets/img/home1/icon/trustpilot-log3.svg" alt="">
-                                            </div>
+                                            </div> -->
                                         </div>
                                         <p>"Called their team before ordering to verify my vehicle trim. They confirmed the exact part number within 2 minutes. Fast shipping and solid warranty coverage."</p>
                                         <div class="author-name">
