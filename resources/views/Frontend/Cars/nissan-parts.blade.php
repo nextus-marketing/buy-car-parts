@@ -95,7 +95,7 @@
     <!-- Start Popular Nissan Parts Grid -->
     <style>
         .product-page .shop-card2 .shop-img {
-            height: 220px;
+            height: 300px;
             display: flex;
             align-items: center;
             justify-content: center;

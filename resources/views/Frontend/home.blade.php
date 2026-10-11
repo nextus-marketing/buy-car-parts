@@ -17,7 +17,7 @@
                 <div class="col-lg-7 d-flex align-items-center">
                     <div class="banner-content">
                         <span>Trusted Auto Parts Supplier</span>
-                        <h1>Quality Used Car Parts & OEM Assemblies</h1>
+                        <h1>Quality <span style="color: #2563eb;">Used Car Parts</span>  & OEM Assemblies</h1>
                         <p>Find tested replacement engines, transmissions, suspension, electrical, and body components for nearly every make and model at unbeatable prices.</p>
                         <div class="banner-content-bottom">
                             <a href="tel:{{ $phone }}" class="primary-btn7">

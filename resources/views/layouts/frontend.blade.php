@@ -37,7 +37,8 @@
     <link rel="stylesheet" href="/frontend/assets/css/my.css">
     <!-- Title -->
     <title>@yield('title', 'Used Car Parts Shop | Classic to Modern Brands - Buy Car Parts')</title>
-    <link rel="icon" href="/frontend/assets/img/sm-logo.svg" type="image/gif" sizes="20x20">
+
+    <link rel="shortcut icon" href="/frontend/assets/favicon.png" type="image/x-icon">
 
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -48,7 +49,11 @@
     <div class="top-bar style-6">
         <div class="logo-and-menu">
             <div class="company-logo">
-                <a href="/"><img src="/frontend/assets/img/logo.svg" alt=""></a>
+                <a href="/" style="display: inline-flex; align-items: center; max-width: 100%;">
+                    <img src="/frontend/assets/logo.png"
+                        alt="Buy Car Parts"
+                        style="display: block; width: 220px; max-width: 100%; height: auto; max-height: 65px; object-fit: contain;">
+                </a>
             </div>
             
         </div>
@@ -75,12 +80,12 @@
     <!-- Start header section -->
     <header class="header-area style-6">
         <div class="header-logo d-lg-none d-flex">
-            <a href="/"><img alt="image" class="img-fluid" src="/frontend/assets/img/logo.svg"></a>
+            <a href="/"><img alt="image" class="img-fluid" src="/frontend/assets/logo.png"></a>
         </div>
         <div class="main-menu">
             <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                 <div class="mobile-logo-wrap">
-                    <a href="/"><img alt="image" src="/frontend/assets/img/logo.svg"></a>
+                    <a href="/"><img alt="image" src="/frontend/assets/logo.png"></a>
                 </div>
             </div>
             <ul class="menu-list">
@@ -104,6 +109,7 @@
                         <!-- Engine Parts -->
                         <li class="menu-item-has-children">
                             <a href="/engine-parts">Engine Parts</a>
+                            <i class="bi bi-plus dropdown-icon"></i>
 
                             <ul class="sub-menu">
                                 <li><a href="/engine-parts/car-engine">Engine</a></li>
@@ -127,6 +133,7 @@
                         <!-- Transmission Parts -->
                         <li class="menu-item-has-children">
                             <a href="/transmission-parts">Transmission Parts</a>
+                            <i class="bi bi-plus dropdown-icon"></i>
                             <ul class="sub-menu">
                                 <li><a href="/transmission-parts/transmission">Transmission</a></li>
                                 <li><a href="/transmission-parts/drive-shaft">Drive Shaft</a></li>
@@ -141,6 +148,7 @@
                         <!-- Suspension Parts -->
                         <li class="menu-item-has-children">
                             <a href="/suspension-parts">Suspension Parts</a>
+                            <i class="bi bi-plus dropdown-icon"></i>
 
                             <ul class="sub-menu">
                                 <li><a href="/suspension-parts/shock-absorber">Shock Absorber</a></li>
@@ -160,6 +168,7 @@
                         <!-- Electrical Parts -->
                         <li class="menu-item-has-children">
                             <a href="/electrical-parts">Electrical Parts</a>
+                            <i class="bi bi-plus dropdown-icon"></i>
 
                             <ul class="sub-menu">
                                 <li><a href="/electrical-parts/alternator">Alternator</a></li>
@@ -180,6 +189,7 @@
                         <!-- Exterior Body Parts -->
                         <li class="menu-item-has-children">
                             <a href="/exterior-parts">Exterior Body Parts</a>
+                            <i class="bi bi-plus dropdown-icon"></i>
 
                             <ul class="sub-menu">
                                 <li><a href="/exterior-parts/bumpers">Bumpers</a></li>
@@ -197,6 +207,7 @@
                         <!-- Interior Body Parts -->
                         <li class="menu-item-has-children">
                             <a href="/interior-parts">Interior Body Parts</a>
+                            <i class="bi bi-plus dropdown-icon"></i>
 
                             <ul class="sub-menu">
                                 <li><a href="/interior-parts/seats">Seats</a></li>
@@ -226,14 +237,13 @@
         </div>
         <div class="nav-right d-flex jsutify-content-end align-items-center">
            
-            <button type="button" class="primary-btn6"
-                data-bs-toggle="modal"
-                data-bs-target="#signUpModal01">
+            <a type="button" class="primary-btn6"
+               href="tel:+18888552919">
 
                 <i class="fa-solid fa-phone"></i>
                 Call Now
 
-            </button>
+</a>
 
 
             <div class="sidebar-button mobile-menu-btn ">
@@ -368,7 +378,7 @@
 
         <div class="footer-center">
             <div class="footer-logo">
-                <a href="/"><img src="/frontend/assets/img/footer-logo.svg" alt=""></a>
+                <a href="/"><img src="/frontend/assets/footer-logo.png" alt=""  style="display: block; width: 220px; max-width: 100%; height: auto; max-height: 65px; object-fit: contain;"></a>
             </div>
             <div class="contact-area">
                 <div class="hotline-area">

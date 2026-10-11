@@ -124,3 +124,55 @@
         font-size: 24px;
     }
 }
+
+/* ============================================================
+   Mobile Nested Sub-Menu Dropdown Fix
+   Makes Engine Parts / Transmission Parts / etc. expandable
+   on mobile. Only applies inside the off-canvas mobile menu.
+   ============================================================ */
+
+/* Ensure nested sub-menu LIs are laid out as block with
+   relative positioning so the dropdown-icon can be placed */
+@media (max-width: 991px) {
+
+    /* Each nested category row: flex so link + icon sit side-by-side */
+    .main-menu .sub-menu > li.menu-item-has-children {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* The category link takes all available space */
+    .main-menu .sub-menu > li.menu-item-has-children > a {
+        flex: 1 1 auto;
+    }
+
+    /* The + toggle icon: show it, make it tappable */
+    .main-menu .sub-menu > li.menu-item-has-children > .dropdown-icon {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        font-size: 18px;
+        color: inherit;
+        transition: transform 0.25s ease;
+    }
+
+    /* Rotate to X when open */
+    .main-menu .sub-menu > li.menu-item-has-children > .dropdown-icon.active {
+        transform: rotate(45deg);
+    }
+
+    /* The nested ul: hidden by default (JS slideToggle handles this),
+       takes full width so items stack below the parent row */
+    .main-menu .sub-menu > li.menu-item-has-children > ul.sub-menu {
+        display: none;
+        width: 100%;
+        flex-basis: 100%;
+        padding-left: 16px;
+    }
+}

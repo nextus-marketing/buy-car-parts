@@ -82,7 +82,7 @@
     <style>
     /* Keep every product image the same height so all cards line up */
     .product-page .shop-card2 .shop-img {
-        height: 220px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content: center;
