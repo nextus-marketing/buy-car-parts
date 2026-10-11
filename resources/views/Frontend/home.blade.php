@@ -69,6 +69,556 @@
     </div>
     <!-- End Home6 Banner section -->
 
+    <!-- ==========================================
+     BUY CAR PARTS - TRUST STATS + HOW IT WORKS
+     ========================================== -->
+
+<section class="bcp-works" aria-labelledby="bcpWorksTitle">
+    <div class="bcp-works-card">
+
+        <!-- ========== TRUST STATS ========== -->
+        <div class="bcp-stats">
+
+            <div class="bcp-stat">
+                <div class="bcp-stars" aria-label="5 out of 5 stars">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                </div>
+                <strong>10,000+</strong>
+                <span>Happy Customers</span>
+            </div>
+
+            <div class="bcp-stat">
+                <strong>4.9 <svg class="bcp-inline-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></strong>
+                <span>Average Rating</span>
+            </div>
+
+            <div class="bcp-stat">
+                <strong>43H</strong>
+                <span>Quick Dispatch</span>
+            </div>
+
+            <div class="bcp-stat">
+                <strong>USA</strong>
+                <span>Nationwide Shipping</span>
+            </div>
+        </div>
+
+        <p class="bcp-lead">
+            Trusted nationwide for high-quality OEM auto parts, VIN verified compatibility, and fast shipping across the USA.
+        </p>
+
+        <!-- ========== HOW IT WORKS ========== -->
+        <div class="bcp-box">
+
+            <h2 class="bcp-box-title" id="bcpWorksTitle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+                HOW IT WORKS
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg>
+            </h2>
+
+            <div class="bcp-steps">
+
+                <!-- Step 1 -->
+                <div class="bcp-step">
+                    <div class="bcp-step-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/>
+                        </svg>
+                        <span class="bcp-num">1</span>
+                    </div>
+                    <div class="bcp-step-text">
+                        <h3>Call Us</h3>
+                        <p>Call <a href="tel:+18888552919">+1 (888) 855-2919</a> and speak with our parts specialist.</p>
+                    </div>
+                    <svg class="bcp-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="bcp-step">
+                    <div class="bcp-step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="5" y="4" width="14" height="17" rx="2.5"/>
+                            <path d="M9 4V3h6v1M9 13l2.2 2.2L15.5 11"/>
+                        </svg>
+                        <span class="bcp-num">2</span>
+                    </div>
+                    <div class="bcp-step-text">
+                        <h3>VIN Verification</h3>
+                        <p>We verify your car's VIN for compatibility and check nationwide inventory.</p>
+                    </div>
+                    <svg class="bcp-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="bcp-step">
+                    <div class="bcp-step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="10.5" cy="10.5" r="6.5"/>
+                            <path d="m20 20-4.9-4.9"/>
+                        </svg>
+                        <span class="bcp-num">3</span>
+                    </div>
+                    <div class="bcp-step-text">
+                        <h3>Find The Best Match</h3>
+                        <p>We match the right OEM or aftermarket part at the best price for your vehicle.</p>
+                    </div>
+                    <svg class="bcp-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                         stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="bcp-step">
+                    <div class="bcp-step-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M2 6h11v10H2zM13 9h4.5l3.5 3.5V16h-8"/>
+                            <circle cx="7" cy="17.5" r="2" fill="currentColor"/>
+                            <circle cx="17" cy="17.5" r="2" fill="currentColor"/>
+                        </svg>
+                        <span class="bcp-num">4</span>
+                    </div>
+                    <div class="bcp-step-text">
+                        <h3>Fast Delivery</h3>
+                        <p>Your part is dispatched quickly and shipped to your door anywhere in the USA.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ========== BOTTOM CALL BAR ========== -->
+        <div class="bcp-bar">
+            <div class="bcp-bar-left">
+                
+                <div>
+                    <strong>Quality Parts. Trusted Service.</strong>
+                    <span>Call us today: <a href="tel:+18888552919">+1 (888) 855-2919</a></span>
+                </div>
+            </div>
+
+            <a href="tel:+18888552919" class="bcp-call-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/>
+                </svg>
+                Call Now
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+<style>
+/* ==========================================
+   BRAND TOKENS (same palette as your popup)
+   ========================================== */
+.bcp-works {
+    --bcp-navy: #172554;
+    --bcp-blue: #2563eb;
+    --bcp-blue-dark: #1d4ed8;
+    --bcp-blue-soft: #eef4ff;
+    --bcp-blue-line: #dbe7ff;
+    --bcp-green: #059669;
+    --bcp-green-soft: #d1fae5;
+    --bcp-text: #64748b;
+
+    padding: 24px 16px;
+    font-family: inherit;
+}
+.bcp-works *,
+.bcp-works *::before,
+.bcp-works *::after {
+    box-sizing: border-box;
+}
+
+.bcp-works-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid var(--bcp-blue-line);
+    border-radius: 24px;
+    box-shadow: 0 18px 50px rgba(23, 37, 84, 0.08);
+}
+
+/* ==========================================
+   1. TRUST STATS
+   ========================================== */
+.bcp-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 32px 32px 0;
+}
+
+.bcp-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-height: 118px;
+    padding: 16px 10px;
+    text-align: center;
+    background: linear-gradient(180deg, #f8faff 0%, var(--bcp-blue-soft) 100%);
+    border: 1px solid var(--bcp-blue-line);
+    border-radius: 18px;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.bcp-stat:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 26px rgba(37, 99, 235, 0.12);
+}
+.bcp-stat strong {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--bcp-blue);
+    font-size: clamp(26px, 3.2vw, 36px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -.5px;
+}
+.bcp-stat span {
+    color: var(--bcp-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.bcp-stars {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 2px;
+}
+.bcp-stars svg,
+.bcp-inline-star {
+    fill: var(--bcp-blue);
+}
+.bcp-stars svg { width: 16px; height: 16px; }
+.bcp-inline-star { width: .75em; height: .75em; }
+
+.bcp-lead {
+    max-width: 760px;
+    margin: 24px auto 0;
+    padding: 0 24px;
+    color: var(--bcp-navy);
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+}
+
+/* ==========================================
+   2. HOW IT WORKS
+   ========================================== */
+.bcp-box {
+    position: relative;
+    margin: 44px 32px 32px;
+    padding: 52px 24px 30px;
+    background: #ffffff;
+    border: 1px solid var(--bcp-blue-line);
+    border-radius: 22px;
+}
+
+.bcp-box-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 0 16px;
+    background: #ffffff;
+    color: var(--bcp-navy);
+    font-size: clamp(20px, 2.8vw, 30px);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: .3px;
+    white-space: nowrap;
+}
+.bcp-box-title svg {
+    width: 16px;
+    height: 16px;
+    color: var(--bcp-blue);
+}
+
+.bcp-steps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+.bcp-step {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.bcp-step-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 58px;
+    height: 58px;
+    border-radius: 18px;
+    background: var(--bcp-blue-soft);
+    border: 1px solid var(--bcp-blue-line);
+    color: var(--bcp-blue);
+    transition: background .25s ease, color .25s ease, transform .25s ease;
+}
+.bcp-step-icon > svg {
+    width: 26px;
+    height: 26px;
+}
+.bcp-step:hover .bcp-step-icon {
+    background: var(--bcp-blue);
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.bcp-num {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--bcp-navy);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.bcp-step-text {
+    min-width: 0;
+    padding-right: 22px;
+}
+.bcp-step-text h3 {
+    margin: 2px 0 6px;
+    color: var(--bcp-navy);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+}
+.bcp-step-text p {
+    margin: 0;
+    color: var(--bcp-text);
+    font-size: 13.5px;
+    line-height: 1.6;
+}
+.bcp-step-text p a {
+    color: var(--bcp-blue);
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.bcp-step-text p a:hover {
+    text-decoration: underline;
+}
+
+.bcp-arrow {
+    position: absolute;
+    top: 18px;
+    right: -22px;
+    width: 18px;
+    height: 18px;
+    color: #94a3b8;
+}
+
+/* ==========================================
+   3. BOTTOM CALL BAR
+   ========================================== */
+.bcp-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 32px;
+    background: linear-gradient(135deg, #172554 0%, #1e3a8a 55%, #2563eb 100%);
+    color: #ffffff;
+}
+.bcp-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+}
+.bcp-bar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 46px;
+    height: 46px;
+    border-radius: 14px;
+    background: var(--bcp-green-soft);
+    color: var(--bcp-green);
+}
+.bcp-bar-icon svg {
+    width: 24px;
+    height: 24px;
+}
+.bcp-bar-left strong {
+    display: block;
+    color: #ffffff;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 800;
+    line-height: 1.25;
+}
+.bcp-bar-left span {
+    display: block;
+    margin-top: 3px;
+    color: #bfdbfe;
+    font-size: 13px;
+    line-height: 1.4;
+}
+.bcp-bar-left span a {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.bcp-call-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    gap: 9px;
+    padding: 13px 28px;
+    border-radius: 14px;
+    background: #ffffff;
+    color: var(--bcp-blue-dark);
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.bcp-call-btn svg {
+    width: 17px;
+    height: 17px;
+    animation: bcpRing 2.2s ease-in-out infinite;
+    transform-origin: 50% 50%;
+}
+.bcp-call-btn:hover {
+    color: var(--bcp-blue-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.28);
+}
+
+@keyframes bcpRing {
+    0%, 60%, 100% { transform: rotate(0); }
+    66%  { transform: rotate(-16deg); }
+    74%  { transform: rotate(14deg); }
+    82%  { transform: rotate(-10deg); }
+    90%  { transform: rotate(6deg); }
+}
+
+/* ==========================================
+   4. LAPTOP / TABLET  (2 x 2 steps)
+   ========================================== */
+@media (max-width: 1024px) {
+    .bcp-steps {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 34px 28px;
+    }
+    .bcp-arrow { display: none; }
+    .bcp-step-text { padding-right: 0; }
+}
+
+@media (max-width: 820px) {
+    .bcp-stats {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 24px 20px 0;
+        gap: 12px;
+    }
+    .bcp-box { margin: 40px 20px 24px; padding: 48px 20px 26px; }
+    .bcp-bar { padding: 18px 20px; }
+}
+
+/* ==========================================
+   5. MOBILE
+   ========================================== */
+@media (max-width: 600px) {
+    .bcp-works { padding: 12px 10px; }
+    .bcp-works-card { border-radius: 20px; }
+
+    .bcp-stat { min-height: 104px; padding: 12px 8px; border-radius: 16px; }
+    .bcp-stat span { font-size: 12.5px; }
+    .bcp-stars svg { width: 13px; height: 13px; }
+
+    .bcp-lead { margin-top: 18px; padding: 0 18px; font-size: 14.5px; }
+
+    .bcp-box { margin: 36px 14px 18px; padding: 44px 16px 8px; border-radius: 18px; }
+    .bcp-box-title { gap: 7px; padding: 0 10px; }
+    .bcp-box-title svg { width: 13px; height: 13px; }
+
+    .bcp-steps { grid-template-columns: 1fr; gap: 0; }
+    .bcp-step {
+        padding: 16px 0;
+        border-bottom: 1px dashed var(--bcp-blue-line);
+    }
+    .bcp-step:last-child { border-bottom: 0; }
+    .bcp-step-icon { width: 52px; height: 52px; border-radius: 16px; }
+    .bcp-step-icon > svg { width: 23px; height: 23px; }
+    .bcp-step-text h3 { font-size: 15px; }
+    .bcp-step-text p { font-size: 13px; }
+
+    .bcp-bar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 14px;
+        padding: 18px 16px;
+        text-align: center;
+    }
+    .bcp-bar-left {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .bcp-call-btn { width: 100%; padding: 15px 20px; }
+}
+
+@media (max-width: 380px) {
+    .bcp-stat strong { font-size: 24px; }
+    .bcp-stat span { font-size: 12px; }
+    .bcp-box { margin-left: 10px; margin-right: 10px; padding-left: 12px; padding-right: 12px; }
+    .bcp-box-title { font-size: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .bcp-call-btn svg { animation: none; }
+    .bcp-stat,
+    .bcp-step-icon,
+    .bcp-call-btn { transition: none; }
+}
+</style>
+<!-- END BUY CAR PARTS HOW IT WORKS -->
+
     <!-- Start Product Page Section -->
     <div class="product-page py-5">
         <div class="container">
@@ -514,16 +1064,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row wow fadeInUp" data-wow-delay="200ms">
-                <div class="col-lg-12 d-flex justify-content-center">
-                    <div class="trustpilot-review">
-                        <strong>Excellent!</strong>
-                        <img src="/frontend/assets/img/home1/icon/trustpilot-star2.svg" alt="">
-                        <p>5.0 Rating out of <strong>5.0</strong> based on <strong>12,400+</strong> reviews</p>
-                        <img src="/frontend/assets/img/home1/icon/trustpilot-logo.svg" alt="">
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <!-- End Why Choose section -->
@@ -538,27 +1079,27 @@
                     </div>
                     <div class="brand-list mt-10">
                         <ul>
-                            <li><a href="tel:{{ $phone }}">Acura Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Audi Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">BMW Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Chevrolet Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Dodge Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Ford Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">GMC Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Honda Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Hyundai Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Infiniti Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Jeep Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Kia Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Lexus Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Mazda Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Mercedes Benz Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Nissan Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Subaru Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Tesla Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Toyota Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Volkswagen Parts</a></li>
-                            <li><a href="tel:{{ $phone }}">Volvo Parts</a></li>
+                            <li><a href="/acura-parts">Acura Parts</a></li>
+                            <li><a href="/audi-parts">Audi Parts</a></li>
+                            <li><a href="/bmw-parts">BMW Parts</a></li>
+                            <li><a href="/chevrolet-parts">Chevrolet Parts</a></li>
+                            <li><a href="/dodge-parts">Dodge Parts</a></li>
+                            <li><a href="/ford-parts">Ford Parts</a></li>
+                            <li><a href="/gmc-parts">GMC Parts</a></li>
+                            <li><a href="/honda-parts">Honda Parts</a></li>
+                            <li><a href="/hyundai-parts">Hyundai Parts</a></li>
+                            <li><a href="/infiniti-parts">Infiniti Parts</a></li>
+                            <li><a href="/jeep-parts">Jeep Parts</a></li>
+                            <li><a href="/kia-parts">Kia Parts</a></li>
+                            <li><a href="/lexus-parts">Lexus Parts</a></li>
+                            <li><a href="/mazda-parts">Mazda Parts</a></li>
+                            <li><a href="/mercedes-benz-parts">Mercedes-Benz Parts</a></li>
+                            <li><a href="/nissan-parts">Nissan Parts</a></li>
+                            <li><a href="/subaru-parts">Subaru Parts</a></li>
+                            <li><a href="/tesla-parts">Tesla Parts</a></li>
+                            <li><a href="/toyota-parts">Toyota Parts</a></li>
+                            <li><a href="/volkswagen-parts">Volkswagen Parts</a></li>
+                            <li><a href="/volvo-parts">Volvo Parts</a></li>
                         </ul>
                     </div>
                 </div>

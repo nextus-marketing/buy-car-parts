@@ -419,6 +419,951 @@
 </footer>
     <!-- End Footer Section -->
 
+    
+<!-- Modern Floating Call Button -->
+<a href="tel:+18888552919" class="floating-call-btn" aria-label="Call us now">
+    <span class="call-icon">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="25" height="25" viewBox="0 0 24 24"
+             fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round"
+             stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2
+            19.79 19.79 0 0 1-8.63-3.07
+            19.5 19.5 0 0 1-6-6
+            A19.79 19.79 0 0 1 2.12 4.18
+            2 2 0 0 1 4.11 2h3
+            a2 2 0 0 1 2 1.72
+            c.12.96.36 1.9.7 2.8
+            a2 2 0 0 1-.45 2.11L8.09 9.91
+            a16 16 0 0 0 6 6l1.27-1.27
+            a2 2 0 0 1 2.11-.45
+            c.9.34 1.84.58 2.8.7
+            A2 2 0 0 1 22 16.92z"/>
+        </svg>
+    </span>
+
+    <span class="call-text">
+        <strong>Call Us Now</strong>
+    </span>
+</a>
+
+<style>
+.floating-call-btn {
+    position: fixed;
+    left: 25px;
+    bottom: 25px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 20px 9px 9px;
+    background: #465ad9;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 25px rgba(70, 90, 217, 0.35);
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.floating-call-btn:hover {
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(70, 90, 217, 0.45);
+}
+
+.call-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #465ad9;
+    background: #ffffff;
+    border-radius: 50%;
+    animation: callPulse 2s infinite;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.call-text strong {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.call-text small {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+@keyframes callPulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 0 7px rgba(255, 255, 255, 0);
+    }
+}
+
+@media (max-width: 576px) {
+    .floating-call-btn {
+        left: 15px;
+        bottom: 15px;
+        padding: 7px;
+    }
+
+    .call-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .call-text strong {
+        font-size: 12px;
+    }
+
+    .call-text small {
+        font-size: 11px;
+    }
+}
+</style>
+
+
+<!-- ==========================================
+     BUY CAR PARTS - RECTANGLE CALL OFFER POPUP
+     No scrolling. Fits desktop, tablet, mobile
+     (portrait + landscape).
+     ========================================== -->
+
+<div id="callOfferOverlay" class="cp-overlay" aria-hidden="true">
+
+    <div class="cp-card">
+
+        <!-- Close button (outside the link so a close tap never calls) -->
+        <button type="button" id="callOfferClose" class="cp-close" aria-label="Close popup">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2.6" stroke-linecap="round" aria-hidden="true">
+                <path d="M6 6l12 12M18 6L6 18"/>
+            </svg>
+        </button>
+
+        <!-- Entire card is clickable and calls -->
+        <a href="tel:+18888552919" id="callOfferCard" class="cp-link"
+           aria-label="Call Buy Car Parts at +1 888-855-2919">
+
+            <!-- LEFT / TOP : OFFER -->
+            <div class="cp-side">
+                <span class="cp-orb cp-orb-1"></span>
+                <span class="cp-orb cp-orb-2"></span>
+
+                <span class="cp-badge">
+                    <span class="cp-badge-dot"></span>
+                    SPECIAL OFFER
+                </span>
+
+                <div class="cp-head">
+                    <div class="cp-discount">
+                        <span class="cp-upto">UP TO</span>
+                        <span class="cp-percent">35<small>%</small></span>
+                        <span class="cp-off">OFF</span>
+                    </div>
+
+                    <div class="cp-head-text">
+                        <h2>The Right Parts,<br><span>Better Prices!</span></h2>
+                        <p>Quality auto parts for your vehicle</p>
+                    </div>
+                </div>
+
+                <ul class="cp-benefits">
+                    <li>
+                        <span class="cp-check">
+                            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor"
+                                 stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="m5 12 4 4L19 6"/>
+                            </svg>
+                        </span>
+                        OEM &amp; Aftermarket Parts
+                    </li>
+                    <li>
+                        <span class="cp-check">
+                            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor"
+                                 stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="m5 12 4 4L19 6"/>
+                            </svg>
+                        </span>
+                        Nationwide Delivery
+                    </li>
+                    <li>
+                        <span class="cp-check">
+                            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor"
+                                 stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="m5 12 4 4L19 6"/>
+                            </svg>
+                        </span>
+                        Vehicle Fitment Assistance
+                    </li>
+                </ul>
+            </div>
+
+            <!-- RIGHT / BOTTOM : TIMER + CALL -->
+            <div class="cp-main">
+
+                <p class="cp-desc">
+                    Talk to our specialists for pricing, availability and the right parts for your vehicle.
+                </p>
+
+                <div class="cp-timer">
+                    <div class="cp-timer-label">
+                        <span class="cp-live"></span>
+                        LIMITED-TIME OFFER ENDS IN
+                    </div>
+
+                    <div class="cp-timer-units">
+                        <div class="cp-unit">
+                            <strong id="offerHours">01</strong>
+                            <small>HRS</small>
+                        </div>
+                        <span class="cp-sep">:</span>
+                        <div class="cp-unit">
+                            <strong id="offerMinutes">45</strong>
+                            <small>MIN</small>
+                        </div>
+                        <span class="cp-sep">:</span>
+                        <div class="cp-unit">
+                            <strong id="offerSeconds">00</strong>
+                            <small>SEC</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cp-cta">
+                    <span class="cp-cta-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24"
+                             fill="currentColor" aria-hidden="true">
+                            <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24 11.36 11.36 0 003.56.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.56 1 1 0 01-.25 1.02z"/>
+                        </svg>
+                    </span>
+                    <span class="cp-cta-text">
+                        <small>Call our parts team</small>
+                        <strong>+1 (888) 855-2919</strong>
+                    </span>
+                    <svg class="cp-arrow" width="19" height="19" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2.4" stroke-linecap="round"
+                         stroke-linejoin="round" aria-hidden="true">
+                        <path d="M5 12h14m-7-7 7 7-7 7"/>
+                    </svg>
+                </div>
+
+                <p class="cp-note">Tap anywhere on this card to call our team</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+<style>
+/* ==========================================
+   1. OVERLAY
+   ========================================== */
+.cp-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    background: rgba(23, 37, 84, 0.55);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+.cp-overlay.is-visible {
+    display: flex;
+    animation: cpFade .25s ease;
+}
+.cp-overlay *,
+.cp-overlay *::before,
+.cp-overlay *::after {
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   2. CARD (rectangle, never scrolls)
+   ========================================== */
+.cp-card {
+    position: relative;
+    width: 100%;
+    max-width: 780px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.35),
+        0 30px 80px rgba(23, 37, 84, 0.38);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    animation: cpPop .4s cubic-bezier(.2, .9, .3, 1.15);
+}
+
+.cp-link {
+    display: grid;
+    grid-template-columns: 1.08fr 1fr;
+    color: #172554;
+    text-decoration: none !important;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+.cp-link:hover,
+.cp-link:focus,
+.cp-link:active {
+    color: #172554;
+    text-decoration: none !important;
+}
+.cp-link:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: -3px;
+    border-radius: 24px;
+}
+
+/* ==========================================
+   3. CLOSE BUTTON
+   ========================================== */
+.cp-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #dce5f5;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #172554;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(23, 37, 84, 0.18);
+    transition: background .2s ease, color .2s ease, transform .2s ease;
+}
+.cp-close:hover {
+    background: #2563eb;
+    color: #ffffff;
+    transform: rotate(90deg);
+}
+
+/* ==========================================
+   4. LEFT PANEL (offer)
+   ========================================== */
+.cp-side {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 32px 28px;
+    background: linear-gradient(135deg, #172554 0%, #1e3a8a 50%, #2563eb 100%);
+    color: #ffffff;
+}
+
+.cp-orb {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+}
+.cp-orb-1 {
+    top: -70px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(96, 165, 250, 0.45), transparent 70%);
+}
+.cp-orb-2 {
+    bottom: -90px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(16, 185, 129, 0.25), transparent 70%);
+}
+
+.cp-badge {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 12px;
+    border-radius: 30px;
+    background: #d1fae5;
+    color: #047857;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .8px;
+    line-height: 1;
+}
+.cp-badge-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #10b981;
+    animation: cpBlink 1.6s ease-in-out infinite;
+}
+
+.cp-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.cp-discount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    line-height: 1;
+}
+.cp-upto {
+    font-size: 8px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #bfdbfe;
+}
+.cp-percent {
+    margin: 3px 0 2px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+.cp-percent small {
+    margin-left: 1px;
+    font-size: 17px;
+    font-weight: 800;
+}
+.cp-off {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: #6ee7b7;
+}
+
+.cp-head-text h2 {
+    margin: 0 0 6px;
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -.5px;
+}
+.cp-head-text h2 span {
+    color: #93c5fd;
+}
+.cp-head-text p {
+    margin: 0;
+    color: #cbd5f5;
+    font-size: 12.5px;
+    line-height: 1.45;
+}
+
+/* Benefits */
+.cp-benefits {
+    position: relative;
+    display: grid;
+    gap: 8px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.cp-benefits li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    padding: 9px 12px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+.cp-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #d1fae5;
+    color: #059669;
+}
+
+/* ==========================================
+   5. RIGHT PANEL (timer + call)
+   ========================================== */
+.cp-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 40px 28px 26px;
+    background: #ffffff;
+}
+
+.cp-desc {
+    margin: 0;
+    color: #64748b;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+/* Timer */
+.cp-timer {
+    padding: 14px 12px;
+    background: linear-gradient(180deg, #f5f8ff 0%, #eef4ff 100%);
+    border: 1px solid #dbe7ff;
+    border-radius: 16px;
+}
+.cp-timer-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin-bottom: 11px;
+    color: #526176;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: .7px;
+    text-align: center;
+}
+.cp-live {
+    position: relative;
+    flex-shrink: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #10b981;
+}
+.cp-live::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: #10b981;
+    animation: cpPing 1.6s ease-out infinite;
+}
+
+.cp-timer-units {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.cp-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 62px;
+    padding: 9px 4px 7px;
+    background: #ffffff;
+    border: 1px solid #dbe7ff;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(37, 99, 235, 0.08);
+}
+.cp-unit strong {
+    color: #172554;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+}
+.cp-unit small {
+    color: #64748b;
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: .5px;
+}
+.cp-sep {
+    margin-top: -14px;
+    color: #2563eb;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+/* CTA */
+.cp-cta {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    padding: 11px 15px 11px 11px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    color: #ffffff;
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.32);
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+.cp-cta::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -80%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+    transform: skewX(-20deg);
+    animation: cpShine 3.2s ease-in-out infinite;
+}
+.cp-link:hover .cp-cta {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.4);
+}
+.cp-cta-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.18);
+}
+.cp-cta-icon::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    animation: cpRing 2s ease-out infinite;
+}
+.cp-cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+}
+.cp-cta-text small {
+    color: #bfdbfe;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1;
+}
+.cp-cta-text strong {
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -.2px;
+    white-space: nowrap;
+}
+.cp-arrow {
+    flex-shrink: 0;
+    margin-left: auto;
+    transition: transform .2s ease;
+}
+.cp-link:hover .cp-arrow {
+    transform: translateX(3px);
+}
+
+.cp-note {
+    margin: -4px 0 0;
+    color: #94a3b8;
+    font-size: 10.5px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+/* ==========================================
+   6. ANIMATIONS
+   ========================================== */
+@keyframes cpFade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes cpPop {
+    from { opacity: 0; transform: translateY(18px) scale(.96); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes cpBlink { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+@keyframes cpPing {
+    0%   { transform: scale(1); opacity: .6; }
+    80%, 100% { transform: scale(3); opacity: 0; }
+}
+@keyframes cpShine { 0%, 60% { left: -80%; } 100% { left: 140%; } }
+@keyframes cpRing {
+    0%   { transform: scale(1); opacity: .7; }
+    100% { transform: scale(1.5); opacity: 0; }
+}
+
+/* ==========================================
+   7. TABLET  (narrower two-column)
+   ========================================== */
+@media (max-width: 860px) and (min-width: 601px) {
+    .cp-card { max-width: 640px; }
+    .cp-side { padding: 28px 22px; gap: 16px; }
+    .cp-main { padding: 38px 22px 22px; gap: 14px; }
+    .cp-head { gap: 12px; }
+    .cp-discount { width: 76px; height: 76px; border-radius: 17px; }
+    .cp-percent { font-size: 30px; }
+    .cp-head-text h2 { font-size: 19px; }
+    .cp-head-text p { font-size: 12px; }
+    .cp-benefits li { font-size: 12px; padding: 8px 10px; }
+    .cp-unit { width: 54px; }
+    .cp-unit strong { font-size: 21px; }
+    .cp-cta-text strong { font-size: 15.5px; }
+}
+
+/* ==========================================
+   8. MOBILE PORTRAIT  (stacked, no scroll)
+   ========================================== */
+@media (max-width: 600px) {
+    .cp-overlay { padding: 12px; }
+    .cp-card { max-width: 400px; border-radius: 20px; }
+    .cp-link { grid-template-columns: 1fr; }
+
+    .cp-side {
+        gap: 12px;
+        padding: 16px 16px 18px;
+    }
+    .cp-badge { padding: 6px 10px; font-size: 9px; }
+
+    .cp-head { gap: 12px; }
+    .cp-discount { width: 72px; height: 72px; border-radius: 16px; }
+    .cp-upto { font-size: 7px; }
+    .cp-percent { font-size: 28px; margin: 2px 0 1px; }
+    .cp-percent small { font-size: 14px; }
+    .cp-off { font-size: 9.5px; }
+    .cp-head-text h2 { font-size: 18px; margin-bottom: 4px; }
+    .cp-head-text p { font-size: 11.5px; }
+
+    /* benefits become compact chips */
+    .cp-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .cp-benefits li {
+        padding: 5px 10px 5px 6px;
+        gap: 6px;
+        border-radius: 30px;
+        font-size: 11px;
+    }
+    .cp-check { width: 17px; height: 17px; }
+    .cp-check svg { width: 10px; height: 10px; }
+
+    .cp-main { gap: 12px; padding: 16px 16px 14px; }
+    .cp-desc { font-size: 12.5px; line-height: 1.55; text-align: center; }
+
+    .cp-timer { padding: 10px 8px; border-radius: 14px; }
+    .cp-timer-label { margin-bottom: 8px; font-size: 9.5px; }
+    .cp-unit { width: 56px; padding: 7px 4px 6px; border-radius: 10px; }
+    .cp-unit strong { font-size: 20px; }
+    .cp-sep { font-size: 19px; margin-top: -12px; }
+
+    .cp-cta { padding: 10px 13px 10px 10px; gap: 10px; border-radius: 14px; }
+    .cp-cta-icon { width: 38px; height: 38px; border-radius: 11px; }
+    .cp-cta-text strong { font-size: 16px; }
+    .cp-note { font-size: 10px; margin-top: -2px; }
+}
+
+/* Small phones: tighter */
+@media (max-width: 360px) {
+    .cp-overlay { padding: 8px; }
+    .cp-side { padding: 14px 12px 14px; }
+    .cp-main { padding: 12px 12px 12px; }
+    .cp-discount { width: 64px; height: 64px; }
+    .cp-percent { font-size: 25px; }
+    .cp-head-text h2 { font-size: 16.5px; }
+    .cp-unit { width: 50px; }
+    .cp-unit strong { font-size: 18px; }
+    .cp-cta-text strong { font-size: 14.5px; }
+    .cp-cta-text small { font-size: 10px; }
+}
+
+/* Short phone screens: drop the least important text so it always fits */
+@media (max-width: 600px) and (max-height: 700px) {
+    .cp-desc { display: none; }
+}
+@media (max-width: 600px) and (max-height: 580px) {
+    .cp-note { display: none; }
+    .cp-benefits { display: none; }
+}
+
+/* ==========================================
+   9. LANDSCAPE PHONES / SHORT SCREENS
+      (two columns, compact, no scroll)
+   ========================================== */
+@media (max-height: 480px) and (min-width: 480px) {
+    .cp-overlay { padding: 8px; }
+    .cp-card { max-width: 640px; border-radius: 18px; }
+    .cp-link { grid-template-columns: 1.08fr 1fr; }
+
+    .cp-side { gap: 10px; padding: 14px 16px; }
+    .cp-badge { padding: 5px 9px; font-size: 8.5px; }
+    .cp-head { gap: 10px; }
+    .cp-discount { width: 64px; height: 64px; border-radius: 14px; }
+    .cp-percent { font-size: 25px; }
+    .cp-percent small { font-size: 12px; }
+    .cp-head-text h2 { font-size: 16px; margin-bottom: 3px; }
+    .cp-head-text p { font-size: 11px; }
+
+    .cp-benefits { display: flex; flex-wrap: wrap; gap: 5px; }
+    .cp-benefits li {
+        padding: 4px 9px 4px 5px;
+        gap: 6px;
+        border-radius: 30px;
+        font-size: 10.5px;
+    }
+    .cp-check { width: 16px; height: 16px; }
+    .cp-check svg { width: 9px; height: 9px; }
+
+    .cp-main { gap: 10px; padding: 34px 16px 12px; }
+    .cp-desc, .cp-note { display: none; }
+
+    .cp-timer { padding: 8px; }
+    .cp-timer-label { margin-bottom: 6px; font-size: 9px; }
+    .cp-unit { width: 48px; padding: 6px 3px 5px; }
+    .cp-unit strong { font-size: 18px; }
+    .cp-sep { font-size: 17px; margin-top: -11px; }
+
+    .cp-cta { padding: 8px 12px 8px 8px; gap: 9px; border-radius: 13px; }
+    .cp-cta-icon { width: 34px; height: 34px; border-radius: 10px; }
+    .cp-cta-text strong { font-size: 15px; }
+    .cp-cta-text small { font-size: 10px; }
+}
+@media (max-height: 360px) and (min-width: 480px) {
+    .cp-benefits { display: none; }
+}
+
+/* ==========================================
+   10. ACCESSIBILITY
+   ========================================== */
+@media (prefers-reduced-motion: reduce) {
+    .cp-overlay.is-visible,
+    .cp-card,
+    .cp-badge-dot,
+    .cp-live::after,
+    .cp-cta::before,
+    .cp-cta-icon::after {
+        animation: none;
+    }
+    .cp-close,
+    .cp-cta,
+    .cp-arrow {
+        transition: none;
+    }
+}
+</style>
+
+
+<script>
+(function () {
+    'use strict';
+
+    const overlay = document.getElementById('callOfferOverlay');
+    const closeButton = document.getElementById('callOfferClose');
+
+    if (!overlay || !closeButton) {
+        return;
+    }
+
+    let popupClosed = false;
+    let countdownInterval = null;
+    let remainingSeconds = 1 * 60 * 60 + 45 * 60; // 01:45:00
+
+    const hoursElement = document.getElementById('offerHours');
+    const minutesElement = document.getElementById('offerMinutes');
+    const secondsElement = document.getElementById('offerSeconds');
+
+    // Show the popup 10 seconds after every page load/refresh.
+    window.setTimeout(function () {
+        if (popupClosed) {
+            return;
+        }
+
+        overlay.classList.add('is-visible');
+        overlay.setAttribute('aria-hidden', 'false');
+
+        startCountdown();
+    }, 10000);
+
+    // Only the close button closes the popup.
+    closeButton.addEventListener('click', function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        popupClosed = true;
+
+        overlay.classList.remove('is-visible');
+        overlay.setAttribute('aria-hidden', 'true');
+
+        if (countdownInterval !== null) {
+            window.clearInterval(countdownInterval);
+            countdownInterval = null;
+        }
+    });
+
+    // Clicking outside the card must not close the popup.
+    overlay.addEventListener('click', function (event) {
+        if (event.target === overlay) {
+            event.preventDefault();
+        }
+    });
+
+    // Countdown resets to 01:45:00 on every page refresh.
+    function pad(value) {
+        return String(value).padStart(2, '0');
+    }
+
+    function updateCountdown() {
+        if (hoursElement) {
+            hoursElement.textContent = pad(Math.floor(remainingSeconds / 3600));
+        }
+        if (minutesElement) {
+            minutesElement.textContent = pad(Math.floor((remainingSeconds % 3600) / 60));
+        }
+        if (secondsElement) {
+            secondsElement.textContent = pad(remainingSeconds % 60);
+        }
+
+        if (remainingSeconds > 0) {
+            remainingSeconds--;
+        } else if (countdownInterval !== null) {
+            window.clearInterval(countdownInterval);
+            countdownInterval = null;
+        }
+    }
+
+    function startCountdown() {
+        if (countdownInterval !== null) {
+            return;
+        }
+
+        updateCountdown();
+        countdownInterval = window.setInterval(updateCountdown, 1000);
+    }
+})();
+</script>
+<!-- END BUY CAR PARTS CALL POPUP -->
     <!--  Main jQuery  -->
     <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/frontend/assets/js/jquery-3.6.0.min.js"></script>
     <script src="/frontend/assets/js/jquery-ui.js"></script>
