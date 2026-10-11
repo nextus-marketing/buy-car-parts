@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Dodge Parts | Quality Used & OEM Dodge Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Dodge Parts | OEM Dodge HEMI Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used Dodge parts for Ram, Charger, Challenger, Durango and more. HEMI engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Dodge parts, OEM Dodge parts, Dodge engine, HEMI engine, Ram parts, Charger parts, Challenger parts')
+@section('canonical', 'https://buycarparts.org/dodge-parts')
+@section('og_title', 'Used Dodge Parts | OEM Dodge HEMI Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used Dodge parts for Ram, Charger, Challenger, Durango and more. HEMI engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/dodge-parts')
 
 @section('content')
 

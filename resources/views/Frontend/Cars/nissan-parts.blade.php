@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Nissan Parts | Quality Used & OEM Nissan Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Nissan Parts | OEM Nissan Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Shop quality used Nissan parts for Altima, Sentra, Rogue, Pathfinder, Frontier and more. VQ engines, CVT transmissions, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Nissan parts, OEM Nissan parts, Nissan engine, Altima parts, Rogue parts, VQ engine')
+@section('canonical', 'https://buycarparts.org/nissan-parts')
+@section('og_title', 'Used Nissan Parts | OEM Nissan Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Shop quality used Nissan parts for Altima, Sentra, Rogue, Pathfinder, Frontier and more. VQ engines, CVT transmissions, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/nissan-parts')
 
 @section('content')
 

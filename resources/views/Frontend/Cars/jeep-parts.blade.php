@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Jeep Parts | Quality Used & OEM Jeep Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Jeep Parts | OEM Jeep Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used Jeep parts for Wrangler, Grand Cherokee, Cherokee, Compass and more. Engines, transmissions, 4WD parts, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Jeep parts, OEM Jeep parts, Jeep engine, Wrangler parts, Grand Cherokee parts')
+@section('canonical', 'https://buycarparts.org/jeep-parts')
+@section('og_title', 'Used Jeep Parts | OEM Jeep Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used Jeep parts for Wrangler, Grand Cherokee, Cherokee, Compass and more. Engines, transmissions, 4WD parts, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/jeep-parts')
 
 @section('content')
 

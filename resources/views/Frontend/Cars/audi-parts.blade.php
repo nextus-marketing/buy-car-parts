@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Audi Parts | Quality Used & OEM Audi Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Audi Parts | OEM Audi Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used and OEM Audi auto parts for A4, A6, A8, Q5, Q7, TT, S4 and more. Engines, transmissions, Quattro drivetrain, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Audi parts, OEM Audi parts, Audi engine, Audi transmission, Audi A4 parts, Audi Q5 parts, Quattro drivetrain')
+@section('canonical', 'https://buycarparts.org/audi-parts')
+@section('og_title', 'Used Audi Parts | OEM Audi Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used and OEM Audi auto parts for A4, A6, A8, Q5, Q7, TT, S4 and more. Engines, transmissions, Quattro drivetrain, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/audi-parts')
 
 @section('content')
 

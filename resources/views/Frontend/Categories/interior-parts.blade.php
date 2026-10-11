@@ -1,8 +1,12 @@
 @extends('layouts.frontend')
 
-@section('title')
-    Interior Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Interior Parts | Seats, Airbags, Steering Wheels & Console – Buy Car Parts')
+@section('meta_description', 'Find quality used interior car parts including seats, seat belts, center consoles, sun visors, mirrors, air bags, and steering wheels. Call +1 (888) 855-2919 for availability. Nationwide shipping.')
+@section('meta_keywords', 'used interior parts, car seats, seat belts, center console, sun visor, air bag, steering wheel, car mirrors')
+@section('canonical', 'https://buycarparts.org/interior-parts')
+@section('og_title', 'Used Interior Car Parts | Seats, Airbags & Steering – Buy Car Parts')
+@section('og_description', 'Shop used interior parts: seats, airbags, steering wheels, consoles and more. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/interior-parts')
 
 @section('content')
 

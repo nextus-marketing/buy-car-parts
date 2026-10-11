@@ -1,8 +1,12 @@
 @extends('layouts.frontend')
 
-@section('title')
-    Engine Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Engine Parts | OEM Engines, Cylinder Heads & More – Buy Car Parts')
+@section('meta_description', 'Find quality used and OEM engine parts including complete engines, cylinder heads, turbochargers, intake manifolds, and more. Call +1 (888) 855-2919 for availability. Nationwide shipping.')
+@section('meta_keywords', 'used engine parts, OEM engines, cylinder heads, turbochargers, intake manifold, engine assemblies, replacement engines USA')
+@section('canonical', 'https://buycarparts.org/engine-parts')
+@section('og_title', 'Used Engine Parts | Complete Engine Assemblies & OEM Components – Buy Car Parts')
+@section('og_description', 'Shop quality used and OEM engine parts. Complete engines, cylinder heads, turbochargers and more. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/engine-parts')
 
 @section('content')
 

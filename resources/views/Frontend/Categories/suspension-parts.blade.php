@@ -1,8 +1,12 @@
 @extends('layouts.frontend')
 
-@section('title')
-    Suspension Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Suspension Parts | Shock Absorbers, Struts, Rack & Pinion – Buy Car Parts')
+@section('meta_description', 'Find quality used suspension parts including shock absorbers, rack & pinion, control arms, brake calipers, power steering pumps, struts, and AC compressors. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used suspension parts, shock absorbers, rack and pinion, control arms, brake caliper, power steering pump, struts, AC compressor')
+@section('canonical', 'https://buycarparts.org/suspension-parts')
+@section('og_title', 'Used Suspension Parts | Shocks, Struts & Steering – Buy Car Parts')
+@section('og_description', 'Shop used suspension parts: shock absorbers, rack & pinion, brake calipers and more. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/suspension-parts')
 
 @section('content')
 

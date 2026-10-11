@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Hyundai Parts | Quality Used & OEM Hyundai Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Hyundai Parts | OEM Hyundai Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used Hyundai parts for Sonata, Elantra, Tucson, Santa Fe and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Hyundai parts, OEM Hyundai parts, Hyundai engine, Sonata parts, Elantra parts, Santa Fe parts')
+@section('canonical', 'https://buycarparts.org/hyundai-parts')
+@section('og_title', 'Used Hyundai Parts | OEM Hyundai Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used Hyundai parts for Sonata, Elantra, Tucson, Santa Fe and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/hyundai-parts')
 
 @section('content')
 

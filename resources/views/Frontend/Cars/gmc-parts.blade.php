@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    GMC Parts | Quality Used & OEM GMC Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used GMC Parts | OEM GMC Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used GMC parts for Sierra, Yukon, Acadia, Terrain and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used GMC parts, OEM GMC parts, GMC engine, Sierra parts, Yukon parts, Acadia parts')
+@section('canonical', 'https://buycarparts.org/gmc-parts')
+@section('og_title', 'Used GMC Parts | OEM GMC Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used GMC parts for Sierra, Yukon, Acadia, Terrain and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/gmc-parts')
 
 @section('content')
 

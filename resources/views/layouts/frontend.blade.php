@@ -5,6 +5,79 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- =============================================
+         SEO META TAGS
+         Each page can override via @section('meta_*')
+         ============================================= -->
+
+    <!-- Primary Meta -->
+    <title>@yield('meta_title', @yield('title', 'Buy Car Parts | Quality Used & OEM Auto Parts Nationwide'))</title>
+    <meta name="description"    content="@yield('meta_description', 'Buy Car Parts supplies quality used and OEM replacement engines, transmissions, electrical, suspension, and body parts for all major brands. Call us at +1 (888) 855-2919 for instant availability. Nationwide shipping.')">
+    <meta name="keywords"       content="@yield('meta_keywords', 'used car parts, OEM auto parts, replacement engines, transmissions, electrical parts, suspension parts, buy car parts, used auto parts USA')">
+    <meta name="author"         content="Buy Car Parts — Spare Part Zone LLC">
+    <meta name="robots"         content="@yield('meta_robots', 'index, follow')">
+    <meta name="theme-color"    content="#2563eb">
+
+    <!-- Contact / Business -->
+    <meta name="contact"        content="+1 (888) 855-2919">
+    <meta name="reply-to"       content="support@buycarparts.org">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="@yield('canonical', 'https://buycarparts.org'.request()->getPathInfo())">
+
+    <!-- =============================================
+         OPEN GRAPH (OG) TAGS — No social accounts
+         ============================================= -->
+    <meta property="og:type"         content="@yield('og_type', 'website')">
+    <meta property="og:site_name"    content="Buy Car Parts">
+    <meta property="og:title"        content="@yield('og_title', @yield('meta_title', 'Buy Car Parts | Quality Used & OEM Auto Parts Nationwide'))">
+    <meta property="og:description"  content="@yield('og_description', @yield('meta_description', 'Quality used and OEM replacement auto parts for all major brands. Engines, transmissions, suspension, electrical and more. Call +1 (888) 855-2919. Fast nationwide shipping.'))">
+    <meta property="og:url"          content="@yield('og_url', 'https://buycarparts.org'.request()->getPathInfo())">
+    <meta property="og:image"        content="@yield('og_image', 'https://buycarparts.org/frontend/assets/logo.png')">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale"       content="en_US">
+    <meta property="og:phone_number" content="+18888552919">
+
+    <!-- =============================================
+         STRUCTURED DATA — LocalBusiness (JSON-LD)
+         ============================================= -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AutoPartsStore",
+        "name": "Buy Car Parts",
+        "alternateName": "Spare Part Zone LLC",
+        "url": "https://buycarparts.org",
+        "logo": "https://buycarparts.org/frontend/assets/logo.png",
+        "image": "https://buycarparts.org/frontend/assets/logo.png",
+        "description": "Buy Car Parts supplies quality used and OEM replacement engines, transmissions, electrical, suspension, and body parts for all major vehicle brands. Nationwide shipping available.",
+        "telephone": "+18888552919",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+18888552919",
+            "contactType": "customer support",
+            "areaServed": "US",
+            "availableLanguage": "English",
+            "contactOption": "TollFree"
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+            ],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "sameAs": []
+    }
+    </script>
+
     <!-- Bootstrap CSS -->
     <link href="/frontend/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/frontend/assets/css/jquery-ui.css" rel="stylesheet">
@@ -16,7 +89,6 @@
     <link href="/frontend/assets/css/animate.min.css" rel="stylesheet">
     <!-- FancyBox CSS -->
     <link href="/frontend/assets/css/jquery.fancybox.min.css" rel="stylesheet">
-
     <!-- Fontawesome CSS -->
     <link href="/frontend/assets/css/fontawesome.min.css" rel="stylesheet">
     <!-- Swiper slider CSS -->
@@ -32,16 +104,11 @@
     <link href="/frontend/assets/css/nice-select.css" rel="stylesheet">
     <!--  Style CSS  -->
     <link rel="stylesheet" href="/frontend/assets/css/style.css">
-
     <!--  my CSS  -->
     <link rel="stylesheet" href="/frontend/assets/css/my.css">
-    <!-- Title -->
-    <title>@yield('title', 'Used Car Parts Shop | Classic to Modern Brands - Buy Car Parts')</title>
 
     <link rel="shortcut icon" href="/frontend/assets/favicon.png" type="image/x-icon">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body class="tt-magic-cursor">

@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Honda Parts | Quality Used & OEM Honda Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Honda Parts | OEM Honda Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Shop quality used Honda parts for Accord, Civic, CR-V, Pilot, Odyssey and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Honda parts, OEM Honda parts, Honda engine, Accord parts, Civic parts, CR-V parts')
+@section('canonical', 'https://buycarparts.org/honda-parts')
+@section('og_title', 'Used Honda Parts | OEM Honda Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Shop quality used Honda parts for Accord, Civic, CR-V, Pilot, Odyssey and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/honda-parts')
 
 @section('content')
 

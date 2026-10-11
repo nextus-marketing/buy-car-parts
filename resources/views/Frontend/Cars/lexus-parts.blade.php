@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Lexus Parts | Quality Used & OEM Lexus Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Lexus Parts | OEM Lexus Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used Lexus parts for RX, ES, GX, LX, IS and more. Engines, transmissions, suspension, hybrid components. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Lexus parts, OEM Lexus parts, Lexus engine, Lexus RX parts, Lexus ES parts, Lexus IS parts')
+@section('canonical', 'https://buycarparts.org/lexus-parts')
+@section('og_title', 'Used Lexus Parts | OEM Lexus Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used Lexus parts for RX, ES, GX, LX, IS and more. Engines, transmissions, suspension, hybrid components. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/lexus-parts')
 
 @section('content')
 

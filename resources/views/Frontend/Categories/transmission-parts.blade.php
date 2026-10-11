@@ -1,8 +1,12 @@
 @extends('layouts.frontend')
 
-@section('title')
-    Transmission Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Transmission Parts | OEM Transmissions, Drive Shafts & Axles – Buy Car Parts')
+@section('meta_description', 'Shop quality used and OEM transmission parts including complete transmissions, drive shafts, axle shafts, subframes and more. Call +1 (888) 855-2919 for instant availability. Nationwide shipping.')
+@section('meta_keywords', 'used transmission parts, OEM transmissions, drive shaft, axle shaft, transmission replacement, subframe, floor shifter')
+@section('canonical', 'https://buycarparts.org/transmission-parts')
+@section('og_title', 'Used Transmission Parts | Complete Gearboxes & Drivetrain – Buy Car Parts')
+@section('og_description', 'Find quality used transmissions, drive shafts, axle shafts and more. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/transmission-parts')
 
 @section('content')
 

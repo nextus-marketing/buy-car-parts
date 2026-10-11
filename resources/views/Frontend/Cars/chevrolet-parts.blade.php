@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Chevrolet Parts | Quality Used & OEM Chevy Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Chevrolet Parts | OEM Chevy Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used Chevrolet parts for Silverado, Suburban, Camaro, Equinox and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Chevrolet parts, OEM Chevy parts, Chevy engine, Silverado parts, Suburban parts, Camaro parts')
+@section('canonical', 'https://buycarparts.org/chevrolet-parts')
+@section('og_title', 'Used Chevrolet Parts | OEM Chevy Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used Chevrolet parts for Silverado, Suburban, Camaro, Equinox and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/chevrolet-parts')
 
 @section('content')
 

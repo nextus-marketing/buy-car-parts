@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    BMW Parts | Quality Used & OEM BMW Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used BMW Parts | OEM BMW Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Shop quality used and OEM BMW auto parts for 3 Series, 5 Series, X3, X5, X7 and more. Engines, ZF transmissions, xDrive, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used BMW parts, OEM BMW parts, BMW engine, BMW transmission, BMW 3 Series parts, BMW X5 parts')
+@section('canonical', 'https://buycarparts.org/bmw-parts')
+@section('og_title', 'Used BMW Parts | OEM BMW Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Shop quality used and OEM BMW auto parts for 3 Series, 5 Series, X3, X5, X7 and more. Engines, ZF transmissions, xDrive, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/bmw-parts')
 
 @section('content')
 

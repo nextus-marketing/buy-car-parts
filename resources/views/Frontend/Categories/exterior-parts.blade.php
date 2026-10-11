@@ -1,8 +1,12 @@
 @extends('layouts.frontend')
 
-@section('title')
-    Exterior Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Exterior Body Parts | Bumpers, Fenders, Hoods & Doors – Buy Car Parts')
+@section('meta_description', 'Buy quality used exterior body parts including bumpers, fenders, hoods, doors, mirrors, grilles, wheel rims and more. Call +1 (888) 855-2919 for availability. Nationwide shipping.')
+@section('meta_keywords', 'used exterior parts, bumpers, fenders, car hood, car doors, mirrors, grilles, wheel rim, wheel hub, fender flare')
+@section('canonical', 'https://buycarparts.org/exterior-parts')
+@section('og_title', 'Used Exterior Body Parts | Bumpers, Doors & Panels – Buy Car Parts')
+@section('og_description', 'Shop used exterior parts: bumpers, fenders, hoods, doors and more. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/exterior-parts')
 
 @section('content')
 

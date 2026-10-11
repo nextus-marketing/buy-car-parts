@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Volvo Parts | Quality Used & OEM Volvo Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Volvo Parts | OEM Volvo Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Find quality used Volvo parts for XC90, XC60, XC40, S60, S90, V60, V90 and more. Drive-E engines, Geartronic transmissions, AWD parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Volvo parts, OEM Volvo parts, Volvo engine, XC90 parts, XC60 parts, Drive-E engine')
+@section('canonical', 'https://buycarparts.org/volvo-parts')
+@section('og_title', 'Used Volvo Parts | OEM Volvo Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Find quality used Volvo parts for XC90, XC60, XC40, S60, S90, V60, V90 and more. Drive-E engines, Geartronic transmissions, AWD parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/volvo-parts')
 
 @section('content')
 

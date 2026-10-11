@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Volkswagen Parts | Quality Used & OEM Volkswagen Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Volkswagen Parts | OEM VW TSI Engines, DSG Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Shop quality used Volkswagen parts for Jetta, Golf, GTI, Tiguan, Atlas, Passat and more. TSI engines, DSG transmissions, 4MOTION, electrical. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Volkswagen parts, OEM VW parts, VW engine, TSI engine, DSG transmission, Jetta parts, Golf GTI parts')
+@section('canonical', 'https://buycarparts.org/volkswagen-parts')
+@section('og_title', 'Used Volkswagen Parts | OEM VW TSI Engines, DSG Transmissions & More - Buy Car Parts')
+@section('og_description', 'Shop quality used Volkswagen parts for Jetta, Golf, GTI, Tiguan, Atlas, Passat and more. TSI engines, DSG transmissions, 4MOTION, electrical. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/volkswagen-parts')
 
 @section('content')
 

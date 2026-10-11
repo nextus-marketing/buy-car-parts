@@ -5,11 +5,17 @@
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Buy Car Parts - Quality Used OEM Auto Parts, Engines & Transmissions
-@endsection
+@section('meta_title', 'Buy Car Parts | Quality Used & OEM Auto Parts – Engines, Transmissions & More')
+@section('meta_description', 'Buy Car Parts is your trusted source for quality used and OEM replacement auto parts. Engines, transmissions, suspension, electrical, and body parts for all major brands. Call +1 (888) 855-2919. Fast nationwide shipping.')
+@section('meta_keywords', 'used car parts, OEM auto parts, replacement engines, used transmissions, suspension parts, electrical car parts, buy car parts online, cheap auto parts USA')
+@section('canonical', 'https://buycarparts.org/')
+@section('og_title', 'Buy Car Parts | Quality Used & OEM Auto Parts – Nationwide Shipping')
+@section('og_description', 'Shop quality used and OEM auto parts for all major brands. Engines, transmissions, electrical, suspension & more. Call +1 (888) 855-2919 for instant availability.')
+@section('og_url', 'https://buycarparts.org/')
+@section('og_image', 'https://buycarparts.org/frontend/assets/logo.png')
 
 @section('content')
+
     <!-- Start Home6 Banner section -->
     <div class="home6-banner-area">
         <div class="container-fluid">

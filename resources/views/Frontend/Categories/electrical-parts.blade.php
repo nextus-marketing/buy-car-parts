@@ -1,8 +1,12 @@
 @extends('layouts.frontend')
 
-@section('title')
-    Electrical Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Electrical Parts | Alternators, Starters, ABS Units & More – Buy Car Parts')
+@section('meta_description', 'Shop quality used electrical car parts including alternators, starters, ignition switches, fuse boxes, instrument clusters, wiper motors, headlights and ABS units. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used electrical parts, alternator, starter motor, ABS unit, fuse box, instrument cluster, headlight, tail light, wiper motor')
+@section('canonical', 'https://buycarparts.org/electrical-parts')
+@section('og_title', 'Used Electrical Car Parts | Alternators, ABS & Lighting – Buy Car Parts')
+@section('og_description', 'Find quality used electrical parts for your vehicle. Alternators, starters, ABS units, headlights and more. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/electrical-parts')
 
 @section('content')
 

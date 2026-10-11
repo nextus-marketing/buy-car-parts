@@ -1,13 +1,17 @@
-@extends('layouts.frontend')
+﻿@extends('layouts.frontend')
 
 @php
     $phone = '+18888552919';
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Ford Parts | Quality Used & OEM Ford Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Ford Parts | OEM Ford Engines, Transmissions & More - Buy Car Parts')
+@section('meta_description', 'Shop quality used Ford parts for F-150, Mustang, Explorer, Escape, Bronco and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Ford parts, OEM Ford parts, Ford engine, Ford F-150 parts, Mustang parts, Explorer parts')
+@section('canonical', 'https://buycarparts.org/ford-parts')
+@section('og_title', 'Used Ford Parts | OEM Ford Engines, Transmissions & More - Buy Car Parts')
+@section('og_description', 'Shop quality used Ford parts for F-150, Mustang, Explorer, Escape, Bronco and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('og_url', 'https://buycarparts.org/ford-parts')
 
 @section('content')
 

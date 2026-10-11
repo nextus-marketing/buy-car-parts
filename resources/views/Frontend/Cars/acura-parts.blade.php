@@ -5,11 +5,16 @@
     $phoneLabel = '+1 (888) 855-2919';
 @endphp
 
-@section('title')
-    Acura Parts | Quality Used & OEM Acura Auto Parts | Buy Car Parts
-@endsection
+@section('meta_title', 'Used Acura Parts | OEM Acura Engines, Transmissions & More – Buy Car Parts')
+@section('meta_description', 'Find quality used and OEM Acura auto parts for MDX, TLX, RDX, Integra, TL and more. Engines, transmissions, suspension, electrical parts. Call +1 (888) 855-2919. Nationwide shipping.')
+@section('meta_keywords', 'used Acura parts, OEM Acura parts, Acura engine, Acura transmission, Acura MDX parts, Acura TLX parts, Acura RDX parts')
+@section('canonical', 'https://buycarparts.org/acura-parts')
+@section('og_title', 'Used Acura Parts | OEM Engines, Transmissions & More – Buy Car Parts')
+@section('og_description', 'Shop quality used Acura parts. Engines, transmissions, electrical and more for MDX, TLX, RDX. Call +1 (888) 855-2919. Fast US shipping.')
+@section('og_url', 'https://buycarparts.org/acura-parts')
 
 @section('content')
+
 
     <!-- Start Header Section -->
     <div class="inner-page-banner">
