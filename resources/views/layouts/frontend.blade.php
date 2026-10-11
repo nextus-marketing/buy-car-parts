@@ -9,31 +9,43 @@
          SEO META TAGS
          Each page can override via @section('meta_*')
          ============================================= -->
+    @php
+        $metaTitle       = trim($__env->yieldContent('meta_title'))       ?: 'Buy Car Parts | Quality Used & OEM Auto Parts Nationwide';
+        $metaDescription = trim($__env->yieldContent('meta_description')) ?: 'Buy Car Parts supplies quality used and OEM replacement engines, transmissions, electrical, suspension, and body parts for all major brands. Call us at +1 (888) 855-2919 for instant availability. Nationwide shipping.';
+        $metaKeywords    = trim($__env->yieldContent('meta_keywords'))     ?: 'used car parts, OEM auto parts, replacement engines, transmissions, electrical parts, suspension parts, buy car parts, used auto parts USA';
+        $metaRobots      = trim($__env->yieldContent('meta_robots'))       ?: 'index, follow';
+        $metaCanonical   = trim($__env->yieldContent('canonical'))         ?: ('https://buycarparts.org' . request()->getPathInfo());
+        $ogTitle         = trim($__env->yieldContent('og_title'))          ?: $metaTitle;
+        $ogDescription   = trim($__env->yieldContent('og_description'))    ?: $metaDescription;
+        $ogUrl           = trim($__env->yieldContent('og_url'))            ?: $metaCanonical;
+        $ogImage         = trim($__env->yieldContent('og_image'))          ?: 'https://buycarparts.org/frontend/assets/logo.png';
+        $ogType          = trim($__env->yieldContent('og_type'))           ?: 'website';
+    @endphp
 
     <!-- Primary Meta -->
-    <title>@yield('meta_title', @yield('title', 'Buy Car Parts | Quality Used & OEM Auto Parts Nationwide'))</title>
-    <meta name="description"    content="@yield('meta_description', 'Buy Car Parts supplies quality used and OEM replacement engines, transmissions, electrical, suspension, and body parts for all major brands. Call us at +1 (888) 855-2919 for instant availability. Nationwide shipping.')">
-    <meta name="keywords"       content="@yield('meta_keywords', 'used car parts, OEM auto parts, replacement engines, transmissions, electrical parts, suspension parts, buy car parts, used auto parts USA')">
-    <meta name="author"         content="Buy Car Parts — Spare Part Zone LLC">
-    <meta name="robots"         content="@yield('meta_robots', 'index, follow')">
-    <meta name="theme-color"    content="#2563eb">
+    <title>{{ $metaTitle }}</title>
+    <meta name="description" content="{{ $metaDescription }}">
+    <meta name="keywords"    content="{{ $metaKeywords }}">
+    <meta name="author"      content="Buy Car Parts — Spare Part Zone LLC">
+    <meta name="robots"      content="{{ $metaRobots }}">
+    <meta name="theme-color" content="#2563eb">
 
     <!-- Contact / Business -->
-    <meta name="contact"        content="+1 (888) 855-2919">
-    <meta name="reply-to"       content="support@buycarparts.org">
+    <meta name="contact"  content="+1 (888) 855-2919">
+    <meta name="reply-to" content="support@buycarparts.org">
 
     <!-- Canonical -->
-    <link rel="canonical" href="@yield('canonical', 'https://buycarparts.org'.request()->getPathInfo())">
+    <link rel="canonical" href="{{ $metaCanonical }}">
 
     <!-- =============================================
          OPEN GRAPH (OG) TAGS — No social accounts
          ============================================= -->
-    <meta property="og:type"         content="@yield('og_type', 'website')">
+    <meta property="og:type"         content="{{ $ogType }}">
     <meta property="og:site_name"    content="Buy Car Parts">
-    <meta property="og:title"        content="@yield('og_title', @yield('meta_title', 'Buy Car Parts | Quality Used & OEM Auto Parts Nationwide'))">
-    <meta property="og:description"  content="@yield('og_description', @yield('meta_description', 'Quality used and OEM replacement auto parts for all major brands. Engines, transmissions, suspension, electrical and more. Call +1 (888) 855-2919. Fast nationwide shipping.'))">
-    <meta property="og:url"          content="@yield('og_url', 'https://buycarparts.org'.request()->getPathInfo())">
-    <meta property="og:image"        content="@yield('og_image', 'https://buycarparts.org/frontend/assets/logo.png')">
+    <meta property="og:title"        content="{{ $ogTitle }}">
+    <meta property="og:description"  content="{{ $ogDescription }}">
+    <meta property="og:url"          content="{{ $ogUrl }}">
+    <meta property="og:image"        content="{{ $ogImage }}">
     <meta property="og:image:width"  content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:locale"       content="en_US">
