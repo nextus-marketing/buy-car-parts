@@ -44,10 +44,10 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>Privacy Policy</h4>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC determines the importance of maintaining your privacy. We value our relationships with our Customers and value the trust they exert by providing us with information.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts determines the importance of maintaining your privacy. We value our relationships with our Customers and value the trust they exert by providing us with information.</p>
                     <p>Therefore, we need to explain how we collect, use and protect customer data. This Privacy Policy (“Privacy Policy”) applies to <a href="https://www.buycarparts.org" target="_blank" rel="noopener">www.buycarparts.org</a> (“Site”, “Website”, “we” or “us”). This is to tell you how we collect and use personal information (as defined below) so that you can make an informed decision about using the Site.</p>
                     <p>Please note this statement before using <a href="https://www.buycarparts.org" target="_blank" rel="noopener">www.buycarparts.org</a> or providing us with any personal data. We reserve the right to change the provisions of this Privacy Policy at any time.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC will notify you of these changes by posting the revised Privacy Policy to <a href="https://buycarparts.org/" target="_blank" rel="noopener">buycarparts.org</a> and stating the last update date in the Privacy Policy. Your use of <a href="https://buycarparts.org/" target="_blank" rel="noopener">buycarparts.org</a> after the revised statement constitutes your acceptance of any such changes.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts will notify you of these changes by posting the revised Privacy Policy to <a href="https://buycarparts.org/" target="_blank" rel="noopener">buycarparts.org</a> and stating the last update date in the Privacy Policy. Your use of <a href="https://buycarparts.org/" target="_blank" rel="noopener">buycarparts.org</a> after the revised statement constitutes your acceptance of any such changes.</p>
                     <p>Therefore, we recommend that you familiarize yourself with our Policy while visiting the website to receive information about any changes or updates that have been made and to understand how any personal information you provide will be used.</p>
                 </div>
             </div>

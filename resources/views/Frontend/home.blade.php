@@ -668,7 +668,7 @@
                                     <i class="bi bi-telephone-fill"></i>
                                     {{ $phoneLabel }}
                                 </a>
-                                <a href="mailto:buycarparts@gmail.com" class="parts-email-btn">
+                                <a href="mailto:sales@buycarparts.org" class="parts-email-btn">
                                     <i class="bi bi-envelope-fill"></i>
                                     Email Us
                                 </a>

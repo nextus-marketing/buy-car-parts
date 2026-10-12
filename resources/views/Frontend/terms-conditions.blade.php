@@ -46,7 +46,7 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>1. Personal Data and Privacy</h4>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC recognizes the importance of maintaining your privacy. We value our relationships with our customers and the trust they place in us when providing personal information.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts recognizes the importance of maintaining your privacy. We value our relationships with our customers and the trust they place in us when providing personal information.</p>
                     <p>We collect and use personal information through www.buycarparts.org for purposes including providing and improving our services, communicating with Users, maintaining and managing our legal and business relationships, and supporting the operation of the Website.</p>
                     <p>Personal information collected through the Website is maintained using appropriate confidentiality and security measures. We do not sell or intentionally disclose personal information to unrelated companies or entities except where necessary to operate the Website, provide requested services, comply with applicable law, or protect our legal rights.</p>
                 </div>
@@ -56,7 +56,7 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>2. Protection of Personal Data</h4>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC may collect personal information provided through registration forms, contact forms, inquiry forms, or other Website features. Such information may be used to provide and support the services available through the Website.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts may collect personal information provided through registration forms, contact forms, inquiry forms, or other Website features. Such information may be used to provide and support the services available through the Website.</p>
                     <p>By voluntarily submitting your information through the Website, you consent to our processing of that information for legitimate business purposes, including responding to inquiries, providing requested services, and communicating with you regarding your requests.</p>
                     <p>Where permitted by applicable law, Users may request access to, correction of, or deletion of their personal information by contacting us through the Contact Us page.</p>
                 </div>
@@ -103,18 +103,18 @@
                         <li>Involve unauthorized commercial activity, sales, advertising, or solicitation.</li>
                     </ul>
                     <p>Users are solely responsible for any content they submit to the Website and for ensuring that they have all necessary rights and permissions to submit such content.</p>
-                    <p>The Website may permit the publication of both positive and negative opinions. Buy Car Parts DBA Spare Part Zone LLC does not necessarily endorse or agree with opinions, images, or other content submitted by Users.</p>
-                    <p>We reserve the right to refuse, remove, or restrict content that violates these Terms &amp; Conditions or applicable law. Buy Car Parts DBA Spare Part Zone LLC does not guarantee the truthfulness, accuracy, completeness, or reliability of opinions, images, or other User-submitted content.</p>
+                    <p>The Website may permit the publication of both positive and negative opinions. Spare Part Zone LLC DBA Buy Car Parts does not necessarily endorse or agree with opinions, images, or other content submitted by Users.</p>
+                    <p>We reserve the right to refuse, remove, or restrict content that violates these Terms &amp; Conditions or applicable law. Spare Part Zone LLC DBA Buy Car Parts does not guarantee the truthfulness, accuracy, completeness, or reliability of opinions, images, or other User-submitted content.</p>
                 </div>
             </div>
 
             <!-- 6. Responsibilities -->
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
-                    <h4>6. Buy Car Parts DBA Spare Part Zone LLC Responsibilities</h4>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC will be responsible for damages caused by its Website only to the extent required by applicable law.</p>
+                    <h4>6. Spare Part Zone LLC DBA Buy Car Parts Responsibilities</h4>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts will be responsible for damages caused by its Website only to the extent required by applicable law.</p>
                     <p>Users acknowledge that their use of the Website, including the submission of opinions, images, videos, inquiries, and other content, is undertaken at their own responsibility.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC does not guarantee the truthfulness, accuracy, suitability, completeness, or timeliness of information provided through the Website and shall not be responsible for decisions made based solely on such information, except where liability cannot legally be excluded.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts does not guarantee the truthfulness, accuracy, suitability, completeness, or timeliness of information provided through the Website and shall not be responsible for decisions made based solely on such information, except where liability cannot legally be excluded.</p>
                 </div>
             </div>
 
@@ -123,10 +123,10 @@
                 <div class="return-and-exchange">
                     <h4>7. Copyright, Licenses, and Idea Submissions</h4>
                     <p>The contents of this Website, including text, graphics, images, logos, designs, code, software, and other materials, may be protected by applicable copyright, trademark, and other intellectual property laws.</p>
-                    <p>Unless expressly permitted by Buy Car Parts DBA Spare Part Zone LLC, Users may not modify, copy, reproduce, republish, upload, post, transmit, distribute, or commercially exploit material available on the Website.</p>
+                    <p>Unless expressly permitted by Spare Part Zone LLC DBA Buy Car Parts, Users may not modify, copy, reproduce, republish, upload, post, transmit, distribute, or commercially exploit material available on the Website.</p>
                     <p>Users may print or download portions of Website materials solely for personal, non-commercial use, provided that all copyright, trademark, and proprietary notices remain intact.</p>
-                    <p>If you voluntarily submit ideas, suggestions, comments, materials, or other information to Buy Car Parts DBA Spare Part Zone LLC through public areas of the Website or by email, you grant Buy Car Parts DBA Spare Part Zone LLC a non-exclusive, royalty-free, worldwide license, to the extent permitted by law, to use, reproduce, distribute, transmit, display, perform, and create derivative works from such submissions for legitimate business purposes.</p>
-                    <p>You also grant Buy Car Parts DBA Spare Part Zone LLC the right to identify you in connection with your submitted materials where permitted by law and where appropriate to the submission.</p>
+                    <p>If you voluntarily submit ideas, suggestions, comments, materials, or other information to Spare Part Zone LLC DBA Buy Car Parts through public areas of the Website or by email, you grant Spare Part Zone LLC DBA Buy Car Parts a non-exclusive, royalty-free, worldwide license, to the extent permitted by law, to use, reproduce, distribute, transmit, display, perform, and create derivative works from such submissions for legitimate business purposes.</p>
+                    <p>You also grant Spare Part Zone LLC DBA Buy Car Parts the right to identify you in connection with your submitted materials where permitted by law and where appropriate to the submission.</p>
                 </div>
             </div>
 
@@ -134,11 +134,11 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>8. Use of the Site</h4>
-                    <p>Except for information, products, or services specifically identified as being supplied by Buy Car Parts DBA Spare Part Zone LLC, the Website may contain information, products, services, links, or resources provided by third parties.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC does not operate, control, or necessarily endorse third-party websites, products, services, or information. Third-party content and services are the responsibility of their respective providers.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC does not guarantee that files available for downloading through the Website will be free from viruses, worms, Trojan horses, malware, or other potentially harmful code.</p>
+                    <p>Except for information, products, or services specifically identified as being supplied by Spare Part Zone LLC DBA Buy Car Parts, the Website may contain information, products, services, links, or resources provided by third parties.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts does not operate, control, or necessarily endorse third-party websites, products, services, or information. Third-party content and services are the responsibility of their respective providers.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts does not guarantee that files available for downloading through the Website will be free from viruses, worms, Trojan horses, malware, or other potentially harmful code.</p>
                     <p>Users are responsible for maintaining appropriate security procedures and safeguards for their devices, data, and systems.</p>
-                    <p>The Website and its related information are provided on an “as is” and “as available” basis to the extent permitted by law. Buy Car Parts DBA Spare Part Zone LLC makes no warranties, express or implied, regarding uninterrupted operation, accuracy, completeness, availability, or error-free performance of the Website.</p>
+                    <p>The Website and its related information are provided on an “as is” and “as available” basis to the extent permitted by law. Spare Part Zone LLC DBA Buy Car Parts makes no warranties, express or implied, regarding uninterrupted operation, accuracy, completeness, availability, or error-free performance of the Website.</p>
                     <p>Users assume responsibility and risk for their use of the Website and the Internet, including their interaction with third-party websites and services.</p>
                 </div>
             </div>
@@ -147,11 +147,11 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>9. Limitation of Liability</h4>
-                    <p>To the maximum extent permitted by applicable law, Buy Car Parts DBA Spare Part Zone LLC shall not be liable for incidental, consequential, indirect, special, or punitive damages, including loss of profits, business interruption, loss of programs or information, or similar damages arising from the use of or inability to use the Website or information, products, or services made available through it.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC shall not be liable for claims arising from errors, omissions, inaccuracies, interruptions, delays, or other issues relating to Website content or third-party information.</p>
+                    <p>To the maximum extent permitted by applicable law, Spare Part Zone LLC DBA Buy Car Parts shall not be liable for incidental, consequential, indirect, special, or punitive damages, including loss of profits, business interruption, loss of programs or information, or similar damages arising from the use of or inability to use the Website or information, products, or services made available through it.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts shall not be liable for claims arising from errors, omissions, inaccuracies, interruptions, delays, or other issues relating to Website content or third-party information.</p>
                     <p>Nothing in these Terms &amp; Conditions is intended to exclude or limit liability that cannot legally be excluded or limited under applicable law.</p>
-                    <p>The Website may contain links to third-party websites. Such links are provided for convenience and do not necessarily constitute an endorsement by Buy Car Parts DBA Spare Part Zone LLC.</p>
-                    <p>Once you access a third-party website, that website is independent from Buy Car Parts DBA Spare Part Zone LLC, and we have no control over its content, policies, products, or services.</p>
+                    <p>The Website may contain links to third-party websites. Such links are provided for convenience and do not necessarily constitute an endorsement by Spare Part Zone LLC DBA Buy Car Parts.</p>
+                    <p>Once you access a third-party website, that website is independent from Spare Part Zone LLC DBA Buy Car Parts, and we have no control over its content, policies, products, or services.</p>
                 </div>
             </div>
 
@@ -159,7 +159,7 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>10. Indemnification</h4>
-                    <p>You agree to indemnify, defend, and hold harmless Buy Car Parts DBA Spare Part Zone LLC, its officers, directors, employees, agents, licensors, suppliers, and service providers from and against claims, losses, liabilities, damages, expenses, and reasonable attorneys’ fees arising out of or relating to your violation of these Terms &amp; Conditions, your unlawful use of the Website, or your violation of the rights of another person or entity.</p>
+                    <p>You agree to indemnify, defend, and hold harmless Spare Part Zone LLC DBA Buy Car Parts, its officers, directors, employees, agents, licensors, suppliers, and service providers from and against claims, losses, liabilities, damages, expenses, and reasonable attorneys’ fees arising out of or relating to your violation of these Terms &amp; Conditions, your unlawful use of the Website, or your violation of the rights of another person or entity.</p>
                 </div>
             </div>
 
@@ -167,7 +167,7 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>11. Third-Party Rights</h4>
-                    <p>Certain provisions of these Terms &amp; Conditions are intended to benefit Buy Car Parts DBA Spare Part Zone LLC and its officers, directors, employees, agents, licensors, suppliers, and service providers.</p>
+                    <p>Certain provisions of these Terms &amp; Conditions are intended to benefit Spare Part Zone LLC DBA Buy Car Parts and its officers, directors, employees, agents, licensors, suppliers, and service providers.</p>
                     <p>Where permitted by applicable law, such individuals and entities may have the right to enforce provisions intended for their benefit.</p>
                 </div>
             </div>
@@ -185,12 +185,12 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>13. Miscellaneous</h4>
-                    <p>These Terms &amp; Conditions shall be governed by and construed in accordance with the applicable laws of the jurisdiction in which Buy Car Parts DBA Spare Part Zone LLC operates, without regard to conflict of law principles, unless otherwise required by applicable law.</p>
+                    <p>These Terms &amp; Conditions shall be governed by and construed in accordance with the applicable laws of the jurisdiction in which Spare Part Zone LLC DBA Buy Car Parts operates, without regard to conflict of law principles, unless otherwise required by applicable law.</p>
                     <p>Any legal action or proceeding arising from or relating to these Terms &amp; Conditions shall be brought in a court of competent jurisdiction, subject to applicable law.</p>
                     <p>Any cause of action or claim concerning the Website should be commenced within the period permitted by applicable law.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC’s failure to enforce any provision of these Terms &amp; Conditions shall not constitute a waiver of that provision or any other right.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts’s failure to enforce any provision of these Terms &amp; Conditions shall not constitute a waiver of that provision or any other right.</p>
                     <p>Neither the course of conduct between the parties nor trade practice shall modify these Terms &amp; Conditions unless expressly agreed in writing or otherwise required by applicable law.</p>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC may assign its rights and obligations under these Terms &amp; Conditions where legally permitted. Any rights not expressly granted herein are reserved.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts may assign its rights and obligations under these Terms &amp; Conditions where legally permitted. Any rights not expressly granted herein are reserved.</p>
                 </div>
             </div>
 
@@ -198,7 +198,7 @@
             <div class="col-lg-12 mb-40">
                 <div class="return-and-exchange">
                     <h4>14. Changes to These Terms &amp; Conditions</h4>
-                    <p>Buy Car Parts DBA Spare Part Zone LLC reserves the right to modify or update these Terms &amp; Conditions at any time. Changes will become effective when posted on buycarparts.org unless otherwise stated.</p>
+                    <p>Spare Part Zone LLC DBA Buy Car Parts reserves the right to modify or update these Terms &amp; Conditions at any time. Changes will become effective when posted on buycarparts.org unless otherwise stated.</p>
                     <p>Your continued use of the Website following the posting of changes means that you acknowledge and accept the revised Terms &amp; Conditions.</p>
                 </div>
             </div>

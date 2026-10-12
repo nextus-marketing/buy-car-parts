@@ -121,6 +121,8 @@
 
     <link rel="shortcut icon" href="/frontend/assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18485553211"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'AW-18485553211'); </script>
 </head>
 
 <body class="tt-magic-cursor">
@@ -346,7 +348,7 @@
                 </div>
                 <div class="about-description">
                     <p style="color:#fff;">Find quality used and OEM replacement parts for your cars. Call our parts team with your vehicle details and let us help you find the right part.</p>
-                    <p style="color:#fff;">Buy Car Parts DBA Spare Part Zone LLC</p>
+                    <p style="color:#fff;">Spare Part Zone LLC DBA Buy Car Parts</p>
                 </div>
             </div>
         </div>
@@ -483,7 +485,7 @@
                     </div>
                     <div class="content">
                         <span>To Send Mail</span>
-                        <h6><a href="mailto:buycarparts@gmail.com">buycarparts@gmail.com</a></h6>
+                        <h6><a href="mailto:sales@buycarparts.org">sales@buycarparts.org</a></h6>
                     </div>
                 </div>
             </div>
@@ -491,7 +493,7 @@
 
         <div class="footer-btm">
             <div class="copyright-area">
-                <p>Copyright ©2026 <a href="/">Buy Car Parts.</a> All rights reserved.</p>
+                <p>Copyright ©2026 <a href="/">Spare Part Zone LLC DBA Buy Car Parts</a> All rights reserved.</p>
             </div>
             <div class="social-area">
                 <h6>Follow Us:</h6>

@@ -56,7 +56,7 @@
                         <li>Items can be returned within <strong>15 days</strong> (about 2 weeks) of delivery, based on the tracking number. It may take up to 25 days (about 3 and a half weeks) for a part to reach us once returned.</li>
                         <li>After we receive the part at our fulfillment center, allow up to <strong>seven business days</strong> for the refund to appear in your account.</li>
                         <li>Single items from a set cannot be returned individually.</li>
-                        <li>Refunds will be applied to the original method of payment. If the original credit card is unavailable, store credit will be issued, which can be used for future purchases with Buy Car Parts DBA Spare Part Zone LLC.</li>
+                        <li>Refunds will be applied to the original method of payment. If the original credit card is unavailable, store credit will be issued, which can be used for future purchases with Spare Part Zone LLC DBA Buy Car Parts.</li>
                         <li>Items that are damaged upon return may be denied a refund or exchange.</li>
                     </ul>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="return-and-exchange">
                     <h4>2. Return Request and Shipping</h4>
                     <ul>
-                        <li>When your return request is accepted, we will send an email to your registered email address with the subject line “Return Assistance from Buy Car Parts DBA Spare Part Zone LLC.”</li>
+                        <li>When your return request is accepted, we will send an email to your registered email address with the subject line “Return Assistance from Spare Part Zone LLC DBA Buy Car Parts.”</li>
                         <li>Ensure you ship the return by the date specified in this email to avoid delays or issues with the refund process.</li>
                         <li>Depending on the seller’s policy, you will either receive a return shipping label from the seller or be asked to purchase one directly from a carrier.</li>
                         <li>The seller pays for return shipping if they offer a free returns policy or if the item was damaged or faulty. The customer pays for return shipping if returning the item due to a change of mind, provided the seller’s return policy states that buyers are responsible for return shipping.</li>
@@ -82,8 +82,8 @@
                     <h4>3. Return Address and Refunds</h4>
                     <ul>
                         <li>The latest date to ship the return will be shown in an email sent to the buyer, as well as within the return request. If the buyer does not ship the return by the specified date, we may close the return request.</li>
-                        <li>The return address will be provided at the conclusion of the contract and upon receipt of the RMA. Items returned to Buy Car Parts DBA Spare Part Zone LLC will be redirected to the correct address specified in the RMA instructions at your expense.</li>
-                        <li>A refund will be issued as soon as we receive the goods. <strong>NO OPERATING COSTS</strong> are covered for any parts sold by Buy Car Parts DBA Spare Part Zone LLC.</li>
+                        <li>The return address will be provided at the conclusion of the contract and upon receipt of the RMA. Items returned to Spare Part Zone LLC DBA Buy Car Parts will be redirected to the correct address specified in the RMA instructions at your expense.</li>
+                        <li>A refund will be issued as soon as we receive the goods. <strong>NO OPERATING COSTS</strong> are covered for any parts sold by Spare Part Zone LLC DBA Buy Car Parts.</li>
                         <li>If the part is found to be defective, we will first attempt to replace it. If a replacement cannot be sent, a full refund of the total sale will be issued. Goods must reach us before the warranty expires to be eligible for a refund. Return shipping charges are non-refundable.</li>
                     </ul>
                 </div>

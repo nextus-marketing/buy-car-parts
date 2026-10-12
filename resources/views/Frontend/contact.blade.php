@@ -124,8 +124,8 @@
                 </div>
 
                 <div class="info">
-                    <a href="mailto:buycarparts@gmail.com">
-                        buycarparts@gmail.com
+                    <a href="mailto:sales@buycarparts.org">
+                        sales@buycarparts.org
                     </a>
                 </div>
             </li>
